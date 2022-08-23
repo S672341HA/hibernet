@@ -14,15 +14,15 @@
 			
 			//create one employee
 			Employee employee = new Employee();
-			employee.setName("Akash Saini");
+			employee.setName("Shashank N");
 			employee.setSalary(5000);
 			em.persist(employee);
 			
 			//create one manager
 			Manager manager = new Manager();
-			manager.setName("Trisha Khanna");
+			manager.setName("Rajesh");
 			manager.setSalary(8000);
-			manager.setDepartmentName("HR");
+			manager.setDepartmentName("hr");
 			em.persist(manager);
 			
 			
@@ -36,4 +36,4 @@
 
 	}
 
-}
+
